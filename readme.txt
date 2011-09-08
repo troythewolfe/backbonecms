@@ -1,0 +1,1 @@
+BackboneCMS is a simple, one-page cms built using backbone.js.  Mostly, it is a test project to get to know backbone.js.
