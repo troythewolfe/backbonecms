@@ -1,0 +1,40 @@
+<!--::nav_list::-->
+<a href="#" id="<%= id_prefix %>_<%= id %>" data-id="<%= id %>">
+    <span><%= title %></span>
+</a>
+
+<!--:SPLIT:-->
+
+<!--::article_edit::-->
+<input type="hidden" name="article_id" value="<%= id %>">		
+
+<p>
+	<input type="text" name="date" value="<%= creation_date %>">
+	
+	<span class="right">
+		<label>published</label> <input type="checkbox" name="publish" <%= published %>>
+	</span>
+</p>
+
+<p>
+	<input type="text" name="title" value="<%= title %>">
+</p>
+
+<p>
+	<textarea><%= content %></textarea>
+</p>
+
+<!--:SPLIT:-->
+
+<!--::field_edit::-->
+<input type="hidden" name="field_id" value="<%= id %>">
+
+<p>
+	<span class="right">
+		<label>published</label> <input type="checkbox" name="publish" <%= published %>>
+	</span>
+</p>
+
+<p>
+	<input type="text" name="title" value="<%= title %>">
+</p>

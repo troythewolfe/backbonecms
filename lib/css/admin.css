@@ -1,0 +1,97 @@
+h1 {
+    padding: 20px;
+}
+
+#nav_panel  {
+    width: 230px;
+	float: left;
+}
+
+#nav_panel ul  {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#nav_panel ul li  {
+	font-size: 0.9em;
+	padding: 5px;
+	margin: 0;
+}
+
+#nav_panel ul li a  {
+	text-decoration: none;
+    display: block;
+}
+
+#nav_panel ul li a span {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+#nav_panel ul li a:hover  {
+	color: red;
+}
+
+#nav_panel ul li  {
+    border-top: 1px solid #eee;
+}
+
+#nav_panel ul li:first-of-type  {
+	border-top: none;
+}
+
+.nav_active  {
+	font-weight: bold;
+	color: #111;
+}
+
+#view_panel  {
+	width: 700px;
+	float: right;
+}
+
+#view_controls  {
+	width: 100%;
+	float: left;
+	margin:0 0  10px 0;
+}
+
+#view  {
+	width: 99%;
+	float: left;
+}
+
+.edit_view p  {
+	width: 100%;
+	float: left;
+}
+
+.edit_view input[name="title"]  {
+	font-size: 1.7em;
+	width: 675px;
+	padding: 5px 10px;
+}
+
+.edit_view input[name="date"]  {
+	font-size: 0.9em;
+	padding: 3px 5px;
+	color: #999;
+	border: 1px solid #ccc;
+}
+
+.edit_view textarea  {
+	padding: 10px;
+	color: #111;
+	width: 675px;
+	height: 600px;
+}
+
+a.admin_button  {
+	padding: 5px;
+	display: block;
+	border: 1px solid #ccc;
+	text-decoration: none;
+	background: white ;
+}
